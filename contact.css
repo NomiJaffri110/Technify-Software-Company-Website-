@@ -1,0 +1,277 @@
+       #quotabtn {
+            background-color: #76cebe !important;
+            color: #fff;
+        }
+        /* ✅ Default color for "Our Services" and "Portfolio" only */
+        
+#portfoliotext {
+    color: #76cebe !important;
+    background-color: transparent !important;
+}
+#ourservicetext:hover{
+    background: transparent !important;
+    color: #76cebe !important;
+}
+        /* ✅ Common Link Style */
+.navbar-nav .nav-item > .nav-link {
+    background-color: transparent !important;
+    color: #76cebe !important;
+    border-radius: 5px;
+    padding: 6px 12px;
+    transition: all 0.3s ease;
+}
+
+/* ✅ Hover Style */
+.navbar-nav .nav-item > .nav-link:hover,
+.navbar-nav .nav-item > .nav-link:focus {
+    background-color: #76cebe !important;
+    color: white !important;
+}
+
+/* ✅ Remove default active effect */
+.navbar-nav .nav-item > .nav-link.active {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+/* ✅ Dropdown open (hover ya click) */
+.nav-item.dropdown.show > .dropdown-toggle,
+.nav-link.dropdown-toggle[aria-expanded="true"],
+.nav-link.dropdown-toggle:hover,
+.nav-link.dropdown-toggle:focus {
+    background-color: #76cebe !important;
+    color: white !important;
+}
+
+/* ✅ Dropdown closed state */
+.nav-link.dropdown-toggle[aria-expanded="false"] {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+/* ✅ Dropdown Menu Background */
+#dropdownportoflio {
+    background-color: #131313 !important;
+    border: none;
+}
+
+
+/* ✅ Dropdown Inside Links */
+#dropdownportoflio a {
+    color: #76cebe!important;
+    background-color: transparent !important;
+}
+
+#dropdownportoflio a:hover {
+    background-color: #5cb4a7 !important;
+    color: #fff !important;
+}
+
+/* ✅ Mobile Toggler Button */
+.navbar-toggler {
+    background-color: #76cebe;
+}
+.navbar-toggler span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+.navbar-toggler:hover span {
+    background-color: #e8edec;
+}
+
+/* ✅ Mobile Toggle Menu Hover */
+.togglertexts li a:hover {
+    background-color: #76cebe !important;
+    color: #fff !important;
+}
+/* ye tariqa acha ha id laga kro hometext laga kr add kro ese backguound colo hover pr nhia aye ga */
+.breadcrumb li a{
+    background:transparent !important;
+    color: #343152 !important;
+}
+.breadcrumb li a:hover{
+    color: #76cebe !important;
+}
+
+#abouttext:hover{
+     background-color: transparent !important;
+    color: #76cebe !important;
+}
+#careertext:hover{
+ background-color: transparent !important;
+    color: #76cebe !important;
+}
+#contacttext{
+background-color: transparent !important;
+    color: #76cebe !important;
+}
+
+#contacttext:hover{
+    background-color: transparent !important;
+    color: #76cebe !important;
+}
+
+.title{
+    color: #343152 !important;
+}
+#breadhometext:hover{
+ color: #76cebe!important;
+}
+.section-title h6{
+    background-color: #76cebe !important;
+    border-radius: 3px;
+    box-shadow: 0 0 2px grey;
+}
+.btn.btn-theme{
+    background-color: #76cebe !important;
+     background: linear-gradient(to right, #76cebe, #5cb4a7) !important;}
+
+
+
+
+/* text portfoliotext */
+
+@media (max-width: 991.98px) {
+  #dropdownportoflio a {
+    color: #76cebe !important;
+    background-color: transparent !important;
+    padding: 9px 12px;
+    display: block;
+  }
+
+  #dropdownportoflio a:hover {
+    background-color: #76cebe !important;
+    color: #fff !important;
+  }
+  #hometext:hover{
+    background-color: #76cebe !important;
+    color: #fff !important;
+}
+#abouttext:hover{
+     background-color: #76cebe !important;
+    color: #fff !important;
+}
+  #ourservicetext {
+    background-color: transparent !important;
+    color: #76cebe !important;
+  }
+  /* hard refresh se hua */
+
+  #ourservicetext:hover {
+    background-color: #76cebe !important;
+    color: #fff !important;
+  }
+  #portfoliotext{
+     background-color: #76cebe !important;
+    color: #ffffff !important;
+   margin: 2px;
+}
+ #portfoliotext:hover {
+    background-color: #76cebe !important;
+    color: white !important;
+  }
+  #careertext:hover{
+  background-color: #76cebe !important;
+    color: white !important;
+}
+#contacttext{
+     background:transparent !important;
+    color: #76cebe!important;
+}
+
+#contacttext:hover{
+   background-color: #76cebe !important;
+    color: #fff !important;
+}
+
+/* .ht-nav-toggle span {
+  background-color: #76cebe !important; }/* ✅ Apka desired color */
+ 
+
+  
+}
+/* title range text */
+.titlerange{
+    color: #343152;
+}
+.texts{
+    color: #76cebe !important;
+}
+.texttechni{
+    color: #343152;
+}
+.iconcolor{
+    color: #76cebe !important;
+}
+.scroll-top a,.scroll-top a:visited{
+   background-color: #76cebe !important;
+}
+.scroll-top a:hover {
+    background-color: #fff !important; /* darker or different shade */
+}
+[class*="ti-"],[class^="ti-"]{
+    color: #fff;
+}
+.scroll-top a:hover [class*="ti-"],
+.scroll-top a:hover [class^="ti-"] {
+    color: #76cebe;
+    background-color: transparent; /* aap yahan apna desired color de sakte hain */
+}
+
+.ht-nav-toggle:hover span::after, #ht-main-nav .ht-nav-toggle:hover span::before{
+    background-color: #76cebe !important;
+}
+.ht-nav-toggle span::before{
+    background-color: #76cebe !important;
+} 
+.ht-nav-toggle:hover span::before{
+background-color: #76cebe !important;
+}
+
+ .ht-nav-toggle span{
+   background-color: #76cebe!important;
+}
+.ht-nav-toggle:hover span{
+     background:#76cebe !important;
+
+}  
+.ht-nav-toggle span::after{
+    background-color: #76cebe !important;
+} 
+.ht-nav-toggle:hover span::after{
+    background-color:#76cebe !important;
+
+}
+/* .ht-nav-toggle.active.show span::after{
+    background-color: black !important;
+} */
+.ht-nav-toggle.active.show span::after{
+    background: transparent;
+}
+.work-process.style-2 .step-num {
+    background-color: #76cebe !important;
+    right: inherit;
+    left: 0;
+    top: 0;
+    border: none;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px; 
+  
+}
+
+
+
+/* .work-process.style-2 .step-num {
+    right: inherit;
+    left: 0;
+    top: 0;
+    border: none;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px; */
